@@ -13,8 +13,9 @@ Firefox plugin for show hidden html elements
 - git clone https://github.com/33gl00/Kadabra.git
 1. Go to : `about:debugging` in browser
 2. Select `this firefox` in left menu
-3. Click on `Load Temporary Add-on...` and select kadabra's manifest.json
-4. Click on puzzle's piece and select `Pin to toolbar`
+3. Click on `Load Temporary Add-on` and select kadabra's manifest.json
+4. Click on ![puzzle](https://github.com/33gl00/Kadabra/assets/148620820/f37cff9d-87a0-47fc-90f3-018fd1a8c468) and select `Pin to toolbar`
 
 ### SCREENSHOT
 ![kadabraMicrosoft](https://github.com/33gl00/Kadabra/assets/148620820/5f751cf3-e6a4-434f-851a-4b44e632e847)
+
