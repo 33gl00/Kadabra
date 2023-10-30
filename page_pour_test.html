@@ -1,0 +1,64 @@
+<!-- eegloo -->
+
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>
+    TESTAGE
+ </title>
+     <style>
+        body {
+            position: relative;
+            background: #faff0d;
+            color:  #f427a9;
+            text-align: center;
+            font-weight: 700;
+            font-size: 22px;
+            z-index: 10;
+        }
+        body .pardessus {
+            z-index: 10;
+        }
+         .pala , .transparent, .pavizi{
+            z-index: -1 !important;
+         }
+         .pala {
+            display: none;
+            color: #55bdea;
+         }
+         .transparent {
+            color:#69d70b;
+            opacity: 0;
+         }
+         .pavizi {
+            color: #50369f ;
+            visibility: hidden;
+         }
+     </style>
+ </head>
+ <body>
+        <div class="pardessus"><p>Ping</p></div>
+        <div><p class="pala" >PIlouPong</p></div>
+<br>    <div class="pardessus" ><p>Ping</p></div>
+        <div id="pong" class="pala"><p>Pong lalalalala lalalalla lllll aa</p></div>
+<br><br><br><br>
+          <button class="pala" id="mou">G T KCHé!!</button>
+     <button class="pala">G T KCHé!!</button>
+     <button class="pala">G T KCHé!!</button>
+     <button class="transparent">G T TransS parent!!</button>
+     <button class="transparent">G T TransS parent!!</button>
+     <br><br>
+          <button class="pavizi">G T INVISIBLE!!</button>
+               <button class="pavizi">G T INVISIBLE!!</button>
+              
+               <button class="pavizi" >G T INVISIBLE MOI AUSSI!!</button>
+
+     <br><br>
+     <br>    <div class="pardessus"><p>Ping</p></div>
+        <div class="pardessus"><p>Pong</p></div>
+<br>    <div class="pardessus"><p>Ping</p></div>
+     <script type="application/javascript">document.getElementById('pong').style.display = 'none';</script>
+ </body>
+</html>
+
+<!-- eegloo -->

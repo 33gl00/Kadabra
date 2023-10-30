@@ -1,0 +1,29 @@
+<!-- eegloo -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>kAdAbrA</title>
+    <link href="popup.css" rel="stylesheet">
+  </head>
+  <body>
+    <h1>k<span>A</span>d<span>A</span>br<span>A</span></h1>
+    <p class="italic" id="punch">-Close your eyes and hope people don't see you-</p>
+      <div class="optionContainer">
+        <label class="tooltip" ><input id="none" type="checkbox" name="myCheckbox"><span class="tooltiptext" > display : <span style="font-weight:700;font-size: 19px;">none</span>;</span>&nbsp&nbsp&nbsp&nbsp Disparues</label>
+        <label class="tooltip"><input id="hid" type="checkbox" name="myCheckbox"><span class="tooltiptext"> visibility : <span style="font-weight:700;font-size: 19px;">hidden</span>;</span>&nbsp&nbsp&nbsp&nbsp Invisibles</label>
+        <label class="tooltip"><input id="transparent" type="checkbox" name="myCheckbox"><span class="tooltiptext"> opacity : <span style="font-weight:700;font-size: 19px;">0</span>;</span>&nbsp&nbsp&nbsp&nbsp Transparents</label>
+        <hr>
+        <label><input id="injectBorder" type="checkbox" name="myCheckbox" checked >Visible and Bordered</label>
+      </div>    
+    <div id="btnTiroir">
+      <a id="monBouton" class="myButton">Refresh</a>
+    </div>
+      
+    <script src="popup.js"></script>
+    <script type="application/javascript">document.onselectstart = new Function ("return false");</script>
+  
+  </body>
+</html>
+
+<!-- eegloo -->

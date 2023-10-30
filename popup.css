@@ -1,0 +1,137 @@
+/* eegloo */
+
+body {
+    background: #343434;
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    width: 342px;
+    border: solid 3px #00ff41;
+    padding: 37px;
+    padding-top: 37px;
+    margin: 13px;
+    padding-top: 5px;
+}
+h1 {
+    color: #ffffff;
+    text-decoration: underline;
+    margin: 4px;
+}
+label {
+    color: white;
+    font-weight: 500;
+    transition: 0.2s;
+    cursor: cursor;
+}
+label:hover {
+    color: #00ff41;
+/*    font-weight: 600;*/
+    transition: 0.2s;
+}
+input {
+/*    padding-top: 10px;*/
+}
+hr {
+    width: 142px;
+}
+h1 span {
+    color : #00ff41;
+    font-weight: bolder;
+}
+#punch {
+    color: #00ff41;
+    font-size: 12px;
+}
+.italic {
+    font-style: italic;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+.optionContainer {
+    margin-top: 10px;
+    margin-left: 20px;
+    text-align: start;
+    display: grid;
+    justify-content: center;
+}
+
+#btnTiroir {
+    justify-content: center;
+    display: flex;
+}
+.myButton {
+    margin-top:30px;
+	box-shadow:inset 0px 1px 0px 0px #d9fbbe;
+	background:linear-gradient(to bottom, #008f11 5%, #00ff41 100%);
+	background-color:#008f11;
+	border-radius:6px;
+	border:1px solid #83c41a;
+	display:inline-block;
+	cursor:pointer;
+    color: white;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #003b00;
+    width: 120px;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #a5cc52 5%, #008f11 100%);
+	background-color:#a5cc52;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+        
+
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 220px;
+  background-color: #ffffff;
+  color:  #008f11;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip text */
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+
+  /* Fade in tooltip */
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+/* Tooltip arrow */
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 0.9;
+}
+
+/* eegloo */
